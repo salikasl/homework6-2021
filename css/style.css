@@ -120,18 +120,37 @@ header{
 /*Your code here again.*/ 
 
 @media (prefers-reduced-motion) {
-  
+
 }
 
 
 @media print { 
 
   /*Requirement 13*/
+  body {
+    background-image: initial;
+  }
   /*Requirement 14*/
+  nav {
+    width: 100%;
+  }
   /*Requirement 15*/
+  .nav_links {
+    justify-content: space-around;
+  }
   /*Requirement 16*/
+  .price {
+    align-items: flex-end;
+  }
   /*Requirement 17*/
+  .package {
+    border: 2px solid #45ADAD;
+    flex-basis: 200px;
+  }
   /*Requirement 18*/
- 
+  .gallery {
+    visibility: hidden;
+  }
+
 }
 
