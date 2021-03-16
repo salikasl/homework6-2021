@@ -28,6 +28,10 @@ header{
 /*Requirement 4*/
 .price{
     min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     /*Your code here*/
     /*You must use flex.
     /*Don't forget to vertically and horizontally 
@@ -40,6 +44,7 @@ header{
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
+  flex-basis: 400px;
   /*Your code here.*/
   /*Take a look at flex-basis*/
 
@@ -60,7 +65,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-
+  flex-wrap: wrap;
 }
 
 /*Requirement 8*/
@@ -114,6 +119,9 @@ header{
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
 
+@media (prefers-reduced-motion) {
+  
+}
 
 
 @media print { 
