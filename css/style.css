@@ -151,8 +151,8 @@ header{
     flex-basis: 200px;
   }
   /*Requirement 18*/
-  .gallery {
-    visibility: hidden;
+  .gallery, #gallery {
+    display: none;
   }
 
 }
