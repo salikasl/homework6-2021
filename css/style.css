@@ -78,19 +78,19 @@ header{
 
 /*Requirement 9*/
 #logo{
-   /*Your code here.*/
- 
+   animation-name: logo_grow;
+   animation-duration: 15s;
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
-  /*Your code here.*/
-
+  0% {width: 25px; opacity: 0;}
+  100% {width: 420px; opacity: 1;}
 }
 
 @keyframes logo_grow{
-  /*Your code here.*/
-
+  0% {width: 25px; opacity: 0;}
+  100% {width: 420px; opacity: 1;}
 } 
 
 @media screen and (min-width: 850px){
@@ -111,7 +111,7 @@ header{
 
   /*Requirement 11*/
   .package {
-    /*Your code here again.*/
+    flex-basis: 230px;
   } 
 }
 
@@ -120,7 +120,9 @@ header{
 /*Your code here again.*/ 
 
 @media (prefers-reduced-motion) {
-
+  #logo {
+    animation: none;
+  }
 }
 
 
