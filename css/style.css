@@ -138,6 +138,7 @@ header{
   }
   /*Requirement 15*/
   .nav_links {
+    flex-direction: row;
     justify-content: space-around;
   }
   /*Requirement 16*/
